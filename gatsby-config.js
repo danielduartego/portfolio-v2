@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Daniel Duarte Portfolio`,
+    description: `My name is Daniel Duarte, a peoples person Web Developer passionate about new technologies, startup, and outdoors. I have a very diverse background, and I use that to offer a unique perspective on the development of any type of project. I enjoy help to build teams and create the bond necessary to bring life to things that lives on the internet, whether that be websites, applications, or anything in between. My goal is to build products that users love and provide results to investors.`,
+    author: `@danielduartego`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

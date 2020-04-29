@@ -1,42 +1,46 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import styled from "styled-components"
+import { Image } from "@components"
+// import { Nav } from '.';
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Bar = styled.header`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: auto;
+  right: auto;
+  z-index: 999;
+  height: 8vh;
+  width: 100%;
+  padding: 0 var(--sides-padding-desktop);
+  top: 0px;
+  background-color: var(--light-color-translucent);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  @media (max-width: 849px) {
+    padding: 0 var(--sides-padding-mobile);
+  }
+`
 
-Header.defaultProps = {
-  siteTitle: ``,
+const Logo = styled.a`
+  font-size: 32px;
+  font-weight: 700;
+
+  @media (max-width: 849px) {
+    font-size: 28px;
+  }
+`
+
+const Header = () => {
+  return (
+    <Bar>
+      <Logo to="/">DD</Logo>
+      {/* <Nav /> */}
+    </Bar>
+  )
 }
 
 export default Header
