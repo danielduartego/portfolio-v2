@@ -6,7 +6,7 @@ import { Footer, GlobalStyles, Header } from "@components"
 const StyledContent = styled.main`
   padding: 0 var(--sides-padding-desktop);
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
   @media (max-width: 849px) {
     padding: 0 var(--sides-padding-mobile);
   }
