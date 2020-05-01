@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Daniel Duarte Portfolio`,
+    title: `Daniel Duarte`,
     description: `My name is Daniel Duarte, a peoples person Web Developer passionate about new technologies, startup, and outdoors. I have a very diverse background, and I use that to offer a unique perspective on the development of any type of project. I enjoy help to build teams and create the bond necessary to bring life to things that lives on the internet, whether that be websites, applications, or anything in between. My goal is to build products that users love and provide results to investors.`,
     author: `@danielduartego`,
   },
